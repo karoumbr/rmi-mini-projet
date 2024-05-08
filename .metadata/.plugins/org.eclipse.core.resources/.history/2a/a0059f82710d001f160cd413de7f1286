@@ -1,0 +1,22 @@
+package store;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class StoreManager extends UnicastRemoteObject implements Store{
+
+	protected StoreManager() throws RemoteException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public float getPrice(String ingredient) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+		
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,13 @@
+package store;
+
+import java.rmi.RemoteException;
+
+public class StoreManager implements Store{
+
+	@Override
+	public float getPrice(String ingredient) throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
